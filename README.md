@@ -16,7 +16,7 @@ Returns:
 - $counts: A dataframe of the counts of the observed values in a and b and comparisons of a and b  
 - $zero: The number of a-to-b comparisons in which the a and b values were the same  
 - $num1: The number of a-to-b comparisons in which the b value was larger  
-- $numneg1: The number of 1-to-b comparisons in which the b value was smaller  
+- $numneg1: The number of a-to-b comparisons in which the b value was smaller  
 - $amean: The mean of a  
 - $bmean: The mean of b  
 
