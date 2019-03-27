@@ -24,6 +24,10 @@ References:
 
 Cliff, N. (1993). Dominance statistics: Ordinal analyses to answer ordinal questions. *Psychological Bulletin*, 114, 494-509.
 
+Disclaimer:
+
+This function is made available without restrictions, and with no guarantee or warranty of any kind.
+
 Examples:
 
 ```
