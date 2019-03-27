@@ -1,3 +1,8 @@
+
+# Dashboards
+
+The ```flexdashboard``` package for R makes it easy to create interactive dashboards and incorporate widgets such as ```plotly``` and ```leaflet```. Source code, examples, and templates are available at https://rmarkdown.rstudio.com/flexdashboard/examples.html.
+
 # Delta
 
 The *DELTA* function accepts two vectors and calculates Cliff's delta (Cliff, 1993) and the statistical significance of delta using a method optimized for large datasets.
