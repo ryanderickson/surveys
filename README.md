@@ -32,5 +32,21 @@ b<-c(2,3,1,4,2,3,4,2)
 
 DELTA(a,b)
 
-# $delta is equivalent to mean(sign(outer(b, a, FUN="-"))) but much faster.
+
+a<-rep(1:10, 5000)
+b<-rep(1:5, 2000)
+
+# 17 seconds required to compute via dominance matrix
+t1<-Sys.time()
+mean(sign(outer(b, a, FUN="-")))
+Sys.time() - t1
+
+# 0.1 seconds required to compute via counts. also does not hit a RAM ceiling.
+t2<-Sys.time()
+DELTA(a,b)
+Sys.time() - t2
+
+
 ```
+
+
